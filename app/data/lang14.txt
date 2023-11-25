@@ -1,0 +1,4 @@
+lang: Dot XIV
+H ⟶ S
+S ⟶ C C
+C ⟶ a C | d

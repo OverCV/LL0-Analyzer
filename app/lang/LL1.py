@@ -43,6 +43,9 @@ class LL1:
     def inits(self, production: Production, prim_set: set) -> set:
         ''' Function to get the first of one production. '''
 
+        if production == None:
+            return set()
+
         for pattern in production.get_patterns():
             first: Token = pattern.get_first()
 
