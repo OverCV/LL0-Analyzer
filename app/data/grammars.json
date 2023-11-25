@@ -1,0 +1,143 @@
+{
+	"language": {
+		"name": "Arithmetic",
+		"productions": [
+			{
+				"token": {
+					"lexema": "E",
+					"is_terminal": false
+				},
+				"patterns": [
+					{
+						"tokens": [
+							{
+								"lexema": "T",
+								"is_terminal": false
+							},
+							{
+								"lexema": "E'",
+								"is_terminal": false
+							}
+						]
+					}
+				]
+			},
+			{
+				"token": {
+					"lexema": "E'",
+					"is_terminal": false
+				},
+				"patterns": [
+					{
+						"tokens": [
+							{
+								"lexema": "+",
+								"is_terminal": true
+							},
+							{
+								"lexema": "T",
+								"is_terminal": false
+							},
+							{
+								"lexema": "E'",
+								"is_terminal": false
+							}
+						]
+					},
+					{
+						"tokens": [
+							{
+								"lexema": "~",
+								"is_terminal": true
+							}
+						]
+					}
+				]
+			},
+			{
+				"token": {
+					"lexema": "T",
+					"is_terminal": false
+				},
+				"patterns": [
+					{
+						"tokens": [
+							{
+								"lexema": "F",
+								"is_terminal": false
+							},
+							{
+								"lexema": "T'",
+								"is_terminal": false
+							}
+						]
+					}
+				]
+			},
+			{
+				"token": {
+					"lexema": "T'",
+					"is_terminal": false
+				},
+				"patterns": [
+					{
+						"tokens": [
+							{
+								"lexema": "*",
+								"is_terminal": true
+							},
+							{
+								"lexema": "F",
+								"is_terminal": false
+							},
+							{
+								"lexema": "T'",
+								"is_terminal": false
+							}
+						]
+					},
+					{
+						"tokens": [
+							{
+								"lexema": "~",
+								"is_terminal": true
+							}
+						]
+					}
+				]
+			},
+			{
+				"token": {
+					"lexema": "F",
+					"is_terminal": false
+				},
+				"patterns": [
+					{
+						"tokens": [
+							{
+								"lexema": "id",
+								"is_terminal": true
+							}
+						]
+					},
+					{
+						"tokens": [
+							{
+								"lexema": "(",
+								"is_terminal": true
+							},
+							{
+								"lexema": "E",
+								"is_terminal": false
+							},
+							{
+								"lexema": ")",
+								"is_terminal": true
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,7 @@
+lang: Dot III
+S ⟶ Q A
+A ⟶ or Q A | λ
+Q ⟶ R B
+B ⟶ R B | λ
+R ⟶ F and | x | y
+F ⟶ z

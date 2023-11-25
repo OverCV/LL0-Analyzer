@@ -1,0 +1,2 @@
+lang: Dot XII
+S ⟶ ( S ) S | λ

@@ -1,0 +1,6 @@
+lang: Operations
+E ⟶ T E’
+E’ ⟶ + T E’ | λ
+T ⟶ F T’
+T’ ⟶ * F T’ | λ
+F ⟶ id | ( E )

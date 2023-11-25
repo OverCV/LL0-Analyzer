@@ -1,0 +1,11 @@
+lang: Dot I
+INICIO ⟶  s [ CN ] t IN C
+C ⟶  λ | sn IN | sns [ CN ] N
+CN ⟶ FN CN’
+CN’ ⟶ λ | ox FN CN’
+FN ⟶ TN FN’
+FN’ ⟶ λ | yx TN FN’
+TN ⟶ tt | ff
+IN ⟶ ee MS - IN | λ
+MS ⟶ { CC }
+CC ⟶ a..z | λ

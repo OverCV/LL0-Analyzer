@@ -1,0 +1,8 @@
+lang: Dot XIII
+S ⟶ ( P ) | OP REL OP | true | false
+AL ⟶ id := P
+P ⟶ P or D | D
+D ⟶ D and C | C
+C ⟶ S | not ( P )
+REL ⟶ = | < | <= | > | >= | <>
+OP ⟶ id | num

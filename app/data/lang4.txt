@@ -1,0 +1,6 @@
+lang: Dot IV
+E ⟶ A B | λ
+A ⟶ F C
+B ⟶ + A B | λ
+C ⟶ * F C | λ
+F ⟶ ( E ) | id

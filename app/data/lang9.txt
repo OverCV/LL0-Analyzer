@@ -1,0 +1,5 @@
+lang: Dot IX
+B ⟶ D L
+D ⟶ id ; D | λ
+L ⟶ S ; L | λ
+S ⟶ a + a

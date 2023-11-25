@@ -1,0 +1,4 @@
+lang: Dot V
+⟨E⟩ ⟶ lit E’ | ide E’ | ap ⟨E⟩ cp E’ | opad ⟨E⟩ E’
+E’ ⟶ F E’ | λ
+F ⟶ opad ⟨E⟩ | asig ⟨E⟩ | int ⟨E⟩ dpt ⟨E⟩

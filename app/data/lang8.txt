@@ -1,0 +1,4 @@
+lang: Dot VIII
+S ⟶ c A
+A ⟶ a B
+B ⟶ b | λ

@@ -1,0 +1,5 @@
+lang: Dot II
+S ⟶ A B
+A ⟶ a | λ
+B ⟶ b C d
+C ⟶ c | λ

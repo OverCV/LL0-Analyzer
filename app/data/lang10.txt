@@ -1,0 +1,4 @@
+lang: Dot X
+S ⟶ A B | s
+A ⟶ a S c | e B f | λ
+B ⟶ b A d | λ
